@@ -31,7 +31,7 @@ public class CustomListTest {
     @Test
     public void hasCityTest(){
         list = MockCityList();
-        City city = new City("Estevan", "SK")
+        City city = new City("Estevan", "SK");
         list.addCity(city);
         assertEquals(list.hasCity(city), true);
     }
